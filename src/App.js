@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 const desc = 'I just learned how to create a React node and render it into the DOM.';
 const myTitleID = 'main-title';
 const name = 'Katie';
-
+console.log(name);
 const header = (
   <header>
     <h1 id={myTitleID}>{ name }'s First React Element!</h1> 
